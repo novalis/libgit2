@@ -25,7 +25,7 @@
 #define GIT_FILEBUF_FSYNC				(1 << 6)
 #define GIT_FILEBUF_DEFLATE_SHIFT		(7)
 
-#define GIT_FILELOCK_EXTENSION ".lock\0"
+#define GIT_FILELOCK_EXTENSION ".lg2L\0"
 #define GIT_FILELOCK_EXTLENGTH 6
 
 typedef struct git_filebuf git_filebuf;
